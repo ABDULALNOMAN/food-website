@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gantari', sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    text-transform: capitalize;
+}
+.container{
+    max-width: 1440px;
+    padding: 0 50px;
+}
+header{
+    height: 100vh;
+    background: url(../image/Group\ 8450.jpg) no-repeat;
+    background-size: 100vh;
+    background-position: top right;
+}
+.header-div{
+    text-align: left;
+    transform: translateY(40%);
+}
+.header-div h1{
+    word-spacing:6px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #575757;
+    margin-bottom: 20px;
+}
+.header-div span{
+    color: #FC8746;
+    text-transform: uppercase;
+}
+.header-div p{
+    color: #A5A5A5;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.header-div button{
+    padding: 15px 40px;
+    background-color:#FB8F48 ;
+    border: none;
+    border-radius: 40px;
+}
+.header-div button a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color:#fff ;
+}
